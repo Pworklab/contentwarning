@@ -1,6 +1,11 @@
 {
-    "server-component": {
-      "welcome": "hello"
+  "header":{
+    "home": "home",
+    "monster":"monsters"
+  },
+
+  "homepage":{
+    "greetings": "hey hi hello umm bye-bye I don't know how to talk to stranger ummmm wanna be friends ??? "
+  }
+
 }
-}
-  
