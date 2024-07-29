@@ -9,9 +9,13 @@ function getLocale(request: NextRequest): string | undefined {
   const negotiatorHeaders = Object.fromEntries(request.headers.entries());
 
   // Use negotiator and intl-localematcher to get best locale
-  const languages = new Negotiator({ headers: negotiatorHeaders }).languages(i18n.locales);
-  const locale = matchLocale(languages, i18n.locales, i18n.defaultLocale);
-  return locale;
+  const languages = new Negotiator({ headers: negotiatorHeaders }).languages(i18n.locales as string[]);
+  
+  // Adjusted matchLocale call
+  const locale = matchLocale(languages, i18n.locales as string[]);
+  
+  // Ensure locale is a string
+  return typeof locale === 'string' ? locale : undefined;
 }
 
 export function middleware(request: NextRequest) {
