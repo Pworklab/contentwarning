@@ -24,6 +24,7 @@ export default async function Home({
       <div className="w-auto h-[90px] mx-2 border-2  border-minty bg-lefu ">
         <a className="text-shiro text-sm p-2">
         {dictionary["homepage"].greetings}
+         aaa
          </a>
       </div>
       </div>
