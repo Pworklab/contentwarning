@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "locale-matcher": "^2.0.0",
+    "negotiator": "^0.6.3",
     "next": "^14.2.5",
     "next.js": "^1.0.3",
     "node.js": "^0.0.1-security",
