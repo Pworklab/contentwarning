@@ -1,7 +1,5 @@
 import { getDictionary } from "p/get-dictionary";
 import { Locale } from "p/i18-config";
-import Image from "next/image";
-import shiro from "p/assets/images/1.png";
 
 export default async function Home({
   params: { lang },
