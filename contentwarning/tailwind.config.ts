@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -11,9 +12,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+       "iconshiro": "url(https://64.media.tumblr.com/8056bfff51dcc3f18388039aab78e460/6e6ab721205d3e84-a2/s2048x3072/038ac6b1b541bb2f7fd197a76fa9e2bc80f06ca1.pnj)",
+       "iconkuro":  "url(https://64.media.tumblr.com/9366f0a5e5f0b10340250da27416617d/6e6ab721205d3e84-a7/s2048x3072/800e2d4139409f1cf720401cb154f890af9ab7fd.jpg)",
+     
+       "white": "url('/assets/images/1.png')",
       },
       colors: {
         'minty': '#76ABAE',
@@ -26,3 +28,7 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+
+//company: "url(/images/banners/company@2x.jpg)",
+        
+//./assets/images/bg_2.png
