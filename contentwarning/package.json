@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "contentwarning": "file:",
     "locale-matcher": "^2.0.0",
     "negotiator": "^0.6.3",
     "next": "^14.2.5",

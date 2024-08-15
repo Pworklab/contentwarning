@@ -11,9 +11,7 @@ export default async function Home({
     <>    
     <section className="w-auto">
      
-
      </section>
-    
     </>
   );
 }

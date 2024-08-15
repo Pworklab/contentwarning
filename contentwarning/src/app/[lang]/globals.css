@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* nostalgic */
+@font-face {
+  font-family: 'ノスタルドット（M+）';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://midorifonts2.netlify.app/Nosutaru-dotMPlusH-10-Regular.ttf) format('truetype');
+}
+
+/* imanity */
+@font-face {
+  font-family: 'Imanity';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://midorifonts2.netlify.app/Imanity_v2.000.otf) format('opentype');
+}
+
+/* bitfont */
+@font-face {
+  font-family: 'じゃっきーふぉんと';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://midorifonts2.netlify.app/jackeyfont.ttf) format('truetype');
+}
+
+/* らこフォンんと */
+@font-face {
+  font-family: 'Markerbysue';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://midorifonts2.netlify.app/Markerbysue-Regular.ttf) format('truetype');
+}
+
+ /* 数式フォント  数式フォントver1.5.ttf*/ 
+ @font-face {
+  font-family: '数式フォント'; 
+  font-style: normal; 
+  font-weight: 100; 
+  src: url(https://midorifonts2.netlify.app/数式フォントver1.5.ttf) format('truetype');  
+  }
+
+
+.nostalgic-text {
+  font-family: 'ノスタルドット（M+）';
+}
+
+.imanity-text {
+  font-family: 'Imanity','ノスタルドット（M+）';
+}
+
+.bitfont-text {
+  font-family: 'じゃっきーふぉんと', 'ノスタルドット（M+）';
+}
+
+.markerbysue-text {
+  font-family: 'Markerbysue','ノスタルドット（M+）';
+}
+
+.suushiki-text {
+  font-family: '数式フォント';
+}
