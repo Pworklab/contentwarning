@@ -20,7 +20,6 @@ const Carousel = ({
       setCarouselWidth(width)
     }
   }
-  
   // Effect to update carousel size on initial render and window resize
   useEffect(() => {
     updateCarouselSize() // Initial size update
